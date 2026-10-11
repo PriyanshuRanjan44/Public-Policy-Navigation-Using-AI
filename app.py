@@ -17,7 +17,7 @@ import numpy as np
 
 logging.basicConfig(level=logging.INFO)
 
-st.set_page_config(page_title="Virtual File Space", page_icon="📂", layout="wide")
+st.set_page_config(page_title="PolicyNav", page_icon="📂", layout="wide")
 
 # --- Session State ---
 if "session_id" not in st.session_state:
@@ -57,7 +57,7 @@ if cleanup:
     st.session_state.chunk_texts = []
     st.success("Session cleared.")
 
-st.title("📂 Virtual File Space")
+st.title("📂 PolicyNav")
 st.markdown("Upload documents, chunk them, and ask questions powered by Ollama.")
 
 # --- Uploader ---
