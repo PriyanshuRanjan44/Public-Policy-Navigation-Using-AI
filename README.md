@@ -1,4 +1,4 @@
-# 📂 Virtual File Space
+# 📂 PolicyNav
 
 An interactive **Streamlit application** that allows you to upload, process, and query files using **chunking + embeddings + Ollama-powered conversational AI**.  
 
